@@ -17,6 +17,8 @@ JavaScript Development Environment
 **Bundle Splitting** - Bundler (Webpack)  
 **Cache Busting** - Bundler (Webpack)  
 **Error Logging** - Track:js recommended (not included, price gate)  
+**Deployment** - Surge  
+**Update Approach** - Github (fork for new project, pull updates from master)
 
 
 ## Desired Improvements:
