@@ -1,0 +1,35 @@
+<!--
+  This is a template for index.html
+  It uses ejs and htmlWebpackPlugin to generate a different index.html for each environment.
+  htmlWebpackPlugin will dynamically add references to scripts and styles since we're using hacsh-based filenames.
+  For info on ejs: http://www.embeddedjs.com/
+  For examples of ejs with htmlWebpackPlugin: https://github.com/jaketrent/html-webpack-template/blob/master/index.ejs
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% if (htmlWebpackPlugin.options.trackJSToken) { %>
+      <!-- BEGIN TRACKJS -->
+      <!-- END TRACKJS -->
+      <meta charset="UTF-8">
+    <% } %>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>Just adding a quick change :) One more :)</p>
+
+    <h1>Users</h1>
+    <table>
+      <thead>
+        <th>&nbsp;</th>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </thead>
+      <tbody id="users">
+
+      </tbody>
+    </table>
+  </body>
+</html>

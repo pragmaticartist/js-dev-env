@@ -1,0 +1,3 @@
+[submodule "js-dev-env-demo-api"]
+	path = js-dev-env-demo-api
+	url = git@github.com:pragmaticartist/js-dev-env-demo-api.git
